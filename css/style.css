@@ -1,27 +1,89 @@
-
 /* common css here */
-*{
+* {
   margin: 0;
   padding: 0;
   outline: 0;
   box-sizing: border-box;
 }
 
-a,a:hover{
+a {
   text-decoration: none;
-  color: #000;
+  padding: 0;
+  margin: 0;
 }
 
-ul,ol{
+ul,
+ol {
   list-style-type: none;
 }
 
 
-img{
+img {
   vertical-align: middle;
 }
 
-h1,h2,h3,h4,h5,h6,p,ol,ul,li,img,span,a,i,input,form,.btn,.navbar,.navbar-brand,textarea{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+span,
+a,
+i,
+input,
+form,
+.btn,
+.navbar,
+.navbar-brand,
+textarea {
   margin: 0;
   padding: 0;
 }
+
+.container {
+  max-width: 1140px;
+}
+
+/* common css end here */
+
+
+
+/* nav section start here */
+nav {
+  background: dimgray;
+}
+
+
+nav .navbar-nav {
+  column-gap: 20px;
+}
+
+
+nav .navbar-nav .nav-item .nav-link {
+  padding: 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #f5f5f5;
+  line-height: 26px;
+}
+
+
+nav .navbar-nav .nav-item .nav-link:hover {
+  color: #753d9d;
+}
+
+
+nav .navbar-nav .nav-item .active {
+  color: #753d9d;
+}
+
+
+
+
+/* nav section start here */
