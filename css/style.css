@@ -1,0 +1,27 @@
+
+/* common css here */
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a,a:hover{
+  text-decoration: none;
+  color: #000;
+}
+
+ul,ol{
+  list-style-type: none;
+}
+
+
+img{
+  vertical-align: middle;
+}
+
+h1,h2,h3,h4,h5,h6,p,ol,ul,li,img,span,a,i,input,form,.btn,.navbar,.navbar-brand,textarea{
+  margin: 0;
+  padding: 0;
+}
