@@ -12,9 +12,10 @@ a {
   margin: 0;
 }
 
-ul,
-ol {
+ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -50,13 +51,20 @@ textarea {
   max-width: 1140px;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* common css end here */
 
 
 
 /* nav section start here */
 nav {
-  background: dimgray;
+  position: absolute !important;
+  z-index: 99;
+  width: 100%;
+  top: 60px;
 }
 
 
@@ -84,6 +92,79 @@ nav .navbar-nav .nav-item .active {
 }
 
 
-
-
 /* nav section start here */
+
+
+
+/*  banner section start here */
+#banner_part {
+  background: url(../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 318px 0 184px;
+  position: relative;
+  z-index: 2;
+}
+
+#banner_part::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(48, 43, 59, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+#banner_part .text_part {
+  text-align: center;
+
+}
+
+#banner_part .text_part h1 {
+  font-size: 70px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+#banner_part .text_part h1 span {
+  color: #753d9d;
+}
+
+
+#banner_part .text_part p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffff;
+  width: 898px;
+  margin: 44px auto 62px;
+}
+
+#banner_part .text_part a {
+  padding: 25px 72px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+
+#banner_part .text_part a:hover {
+  background: #753d9d;
+  border: 1px solid #753d9d;
+
+
+}
+
+#banner_part .text_part .takebtn {
+  margin-left: 30px;
+}
+
+
+/*  banner section end here */
+
+
