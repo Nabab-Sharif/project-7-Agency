@@ -254,3 +254,50 @@ nav .navbar-nav .nav-item .active {
 
 
 /* creative section end here */
+
+
+
+/* feature section start here  */
+
+#feature_part {
+  padding: 64px 0;
+  border-top: 2px solid #e0e0e0;
+}
+
+#feature_part .feature_contents .feature_content_logo_title {
+  display: flex;
+  align-items: center;
+  column-gap: 18px;
+  margin-bottom: 31px;
+}
+
+
+#feature_part .feature_contents .feature_content_logo_title h4 {
+  font-weight: 600;
+  color: #0d113d;
+  font-size: 21px;
+  font-style: normal;
+  line-height: 26px;
+
+}
+
+
+
+
+#feature_part .feature_contents p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #0d113d;
+  font-style: normal;
+  line-height: 26px;
+  width: 356px;
+}
+
+
+
+
+
+
+
+
+/* feature section end here  */
