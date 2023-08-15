@@ -283,7 +283,6 @@ nav .navbar-nav .nav-item .active {
 
 
 
-
 #feature_part .feature_contents p {
   font-weight: 400;
   font-size: 12px;
@@ -294,10 +293,54 @@ nav .navbar-nav .nav-item .active {
 }
 
 
-
-
-
-
-
-
 /* feature section end here  */
+
+
+
+
+/* slogan section start here */
+#slogan_part {
+  background: url(../images/sloganCoverPic.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 104px 0 95px;
+  margin-bottom: 63px;
+  position: relative;
+  z-index: 2;
+}
+ 
+#slogan_part::before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(50, 41, 57, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#slogan_part .text {
+  text-align: center;
+  height: 100%;
+}
+
+#slogan_part .text h3 {
+  font-weight: 600;
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 64px;
+}
+
+#slogan_part .text a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 25px 96px 25px 70px;
+  background: #753d9d;
+
+}
+
+
+/* slogan section end here */
