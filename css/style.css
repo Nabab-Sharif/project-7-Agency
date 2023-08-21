@@ -309,8 +309,8 @@ nav .navbar-nav .nav-item .active {
   position: relative;
   z-index: 2;
 }
- 
-#slogan_part::before{
+
+#slogan_part::before {
   content: "";
   height: 100%;
   width: 100%;
@@ -342,5 +342,99 @@ nav .navbar-nav .nav-item .active {
 
 }
 
-
 /* slogan section end here */
+
+
+
+/* service section start here */
+#service_part {
+  padding-bottom: 64px;
+}
+
+#service_part .container {
+  position: relative;
+}
+
+#service_part .container::after {
+  content: "";
+  background: #753d9d;
+  height: 38px;
+  width: 5px;
+  position: absolute;
+  top: 0;
+  
+}
+
+
+
+#service_part h2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #0d113d;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  margin-left: 16px;
+  line-height: 1.5;
+  
+}
+
+#service_part .image {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+#service_part .image img {
+  width: 100%;
+  height: 100%;
+}
+
+#service_part .image h4 {
+  position: absolute;
+  left: 25px;
+  bottom: 28px;
+  font-weight: 600;
+  font-size: 17px;
+  color: #ffffff;
+
+}
+
+#service_part .image .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#service_part .lastImage {
+  background-color: #0d113d;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#service_part .row {
+  row-gap: 24px;
+}
+
+
+#service_part .lastImage::before {
+  content: "";
+  background: #ffffff;
+  width: 90px;
+  height: 4px;
+  position: absolute;
+  right: 110px;
+  bottom: 52px;
+
+}
+
+#service_part .lastImage .lasttext {
+  position: absolute;
+  left: 251px;
+  bottom: 71px;
+}
+
+/* service section end here */
