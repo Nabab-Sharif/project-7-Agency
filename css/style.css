@@ -362,7 +362,7 @@ nav .navbar-nav .nav-item .active {
   width: 5px;
   position: absolute;
   top: 0;
-  
+
 }
 
 
@@ -375,7 +375,7 @@ nav .navbar-nav .nav-item .active {
   margin-bottom: 35px;
   margin-left: 16px;
   line-height: 1.5;
-  
+
 }
 
 #service_part .image {
@@ -438,3 +438,80 @@ nav .navbar-nav .nav-item .active {
 }
 
 /* service section end here */
+
+
+
+/* support section start here */
+#support_part {
+  padding: 70px 0;
+  border-top: 2px solid #e0e0e0;
+}
+
+#support_part .image img {
+  width: 50%;
+}
+
+
+
+
+#support_part .text h4 {
+  color: #0d113d;
+  font-size: 33px;
+  font-weight: 800;
+}
+
+#support_part .text p {
+  color: #0d113d;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 27px;
+  width: 532px;
+}
+
+
+#support_part .text ul {
+  margin-top: 68px;
+}
+
+#support_part .text ul li {
+  margin-bottom: 28px;
+}
+
+
+#support_part .contact_part {
+  padding: 46px 0;
+  background: #753d9d;
+}
+
+
+#support_part .contact_part .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#support_part .contact_part h3 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+
+#support_part .contact_part a {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 18px 70px;
+  background-color: #753d9d;
+  border: 1px solid bisque;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+/* support section  end  here */
